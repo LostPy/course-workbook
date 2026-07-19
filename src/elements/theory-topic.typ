@@ -11,7 +11,7 @@
     let title-fg = if it.title-color == auto { rgb("#1a1a1a") } else { it.title-color }
     
     page[
-      #grid(columns: (70%, 22%, 8%),
+      #grid(columns: (70%, 15%, 15%),
         align(left)[
           #text(size: 16pt, weight: "bold", fill: title-fg)[#it.title: ]
           #box(width: 1fr, line(length: 100%, stroke: 1pt + luma(150)))

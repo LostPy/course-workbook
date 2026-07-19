@@ -1,7 +1,7 @@
 // Course Workbook - Math Example
 // This demonstrates how to build a complete math learning workbook
 
-#import "../src/lib.typ": *
+#import "@local/course-workbook:0.1.0": *
 
 // User's page setup (the package doesn't force this)
 #set page(
