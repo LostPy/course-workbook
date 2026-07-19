@@ -25,7 +25,7 @@
 
 // 1. Cover page
 #cover-page(
-  [Calculus\ I Workbook],
+  [Calculus I\ Workbook],
   color: rgb("#2a4a6a")
 ) <cover-page>
 #pagebreak()
