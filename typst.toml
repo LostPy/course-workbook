@@ -1,0 +1,14 @@
+[package]
+name = "course-workbook"
+version = "0.1.0"
+authors = ["lostpy <lostpy@tuta.io>"]
+description = "A Typst package to create digital tablet focus course workbook"
+license = "MIT"
+homepage = ""
+entrypoint = "src/lib.typ"
+
+[dependencies]
+elembic = "1.1.1"
+
+[template]
+path = "examples/main.typ"
